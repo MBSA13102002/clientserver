@@ -1,6 +1,6 @@
 
 
-const socket = io('https://hackilo.herokuapp.com:8000');
+const socket = io('http://hackilo.herokuapp.com:8000');
 
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("messageInp");
